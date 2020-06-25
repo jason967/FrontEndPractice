@@ -1,11 +1,8 @@
 body{
     background-color: #ecf0f1;
+    color: #34495e;
 }
 
-h1{
-    color: #34495e;
-    transition: color 1s ease-in-out;
-}
 
 .btn{
     cursor: pointer;
@@ -14,4 +11,18 @@ h1{
 .clicked 
 {
     color:#7f8c8d;
+}
+
+.form
+{
+    display: none;
+}
+.greetings
+{
+    display: none;
+}
+
+.showing
+{
+    display: block;
 }
